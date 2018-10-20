@@ -31,7 +31,7 @@ class Neighborhood{
               return d.meal();
             }.bind(this)
         );
-       return new Set(uniq);
+       return [...new Set(uniq)];
   }
 }
 let customerId=0;
